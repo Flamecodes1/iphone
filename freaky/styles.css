@@ -105,3 +105,18 @@ body {
         padding: 1.5rem;
     }
 }
+/* Card Styling */
+.card {
+    background-color: #fff;
+    border-radius: 1rem;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    padding: 2rem;
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+    will-change: transform, box-shadow; /* Optimierung für Animation */
+}
+
+.card:hover {
+    transform: translateY(-10px); /* Leichtes Schweben */
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1); /* Verstärkter Schatten */
+}
